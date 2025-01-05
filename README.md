@@ -95,3 +95,101 @@
     </footer>
 </body>
 </html>
+
+/* Prosty CSS */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #009688;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.cta-button {
+    background-color: #009688;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.blog-post {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.blog-post a {
+    text-decoration: none;
+    color: #009688;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Responsywność */
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .product, .blog-post {
+        margin-bottom: 20px;
+    }
+}
