@@ -14,25 +14,35 @@
                 <li><a href="#home">Strona Główna</a></li>
                 <li><a href="#shop">Sklep</a></li>
                 <li><a href="#about">O Nas</a></li>
+                <li><a href="#blog">Blog</a></li>
                 <li><a href="#contact">Kontakt</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Sekcja główna -->
+    <!-- Strona Główna -->
     <section id="home">
         <h1>Witamy w MedSuit!</h1>
         <p>Profesjonalna odzież medyczna dla Ciebie.</p>
-        <a href="#shop">Zobacz naszą ofertę</a>
+        <div class="hero-image">
+            <img src="https://images.pexels.com/photos/4373527/pexels-photo-4373527.jpeg" alt="Odzież medyczna">
+        </div>
+        <a href="#shop" class="cta-button">Zobacz naszą ofertę</a>
     </section>
 
     <!-- Sklep -->
     <section id="shop">
         <h2>Sklep</h2>
         <div class="product">
-            <img src="path_to_product_image.jpg" alt="Produkt">
+            <img src="https://images.pexels.com/photos/4373527/pexels-photo-4373527.jpeg" alt="Produkt 1">
             <h3>Bluzka medyczna</h3>
             <p>Cena: 99 zł</p>
+            <button>Dodaj do koszyka</button>
+        </div>
+        <div class="product">
+            <img src="https://images.pexels.com/photos/4373528/pexels-photo-4373528.jpeg" alt="Produkt 2">
+            <h3>Fartuch medyczny</h3>
+            <p>Cena: 129 zł</p>
             <button>Dodaj do koszyka</button>
         </div>
         <!-- Dodaj inne produkty -->
@@ -42,6 +52,24 @@
     <section id="about">
         <h2>O nas</h2>
         <p>MedSuit to firma, która oferuje wygodną i funkcjonalną odzież medyczną, idealną do pracy w służbie zdrowia.</p>
+        <div class="about-image">
+            <img src="https://images.pexels.com/photos/4171732/pexels-photo-4171732.jpeg" alt="Nasza odzież medyczna">
+        </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog">
+        <h2>Blog</h2>
+        <article class="blog-post">
+            <h3>Jak wybrać odpowiednią odzież medyczną?</h3>
+            <p>Wybór odpowiedniego stroju medycznego ma kluczowe znaczenie dla komfortu i efektywności pracy w służbie zdrowia...</p>
+            <a href="#">Czytaj więcej</a>
+        </article>
+        <article class="blog-post">
+            <h3>Dlaczego warto inwestować w profesjonalną odzież medyczną?</h3>
+            <p>Odzież medyczna wysokiej jakości wpływa na wygodę, bezpieczeństwo oraz profesjonalny wizerunek pracowników medycznych...</p>
+            <a href="#">Czytaj więcej</a>
+        </article>
     </section>
 
     <!-- Formularz kontaktowy -->
